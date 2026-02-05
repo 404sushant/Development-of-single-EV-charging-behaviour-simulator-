@@ -1,0 +1,5 @@
+Preheating and charging are governed by different subsystems with different power limits and control objectives. During preheating, electrical power is primarily used by dedicated battery heating elements, which are intentionally limited by heater capacity and thermal safety constraints. As a result, the peak power during preheating is capped at approximately 11–12 kW and does not increase further at lower ambient temperatures.
+
+During charging, electrical power flows from the grid through the onboard charger into the battery. In this case, the maximum charging power is determined by the charger rating, grid connection, and temperature-dependent limits imposed by the battery management system. Even under cold conditions, these limits allow higher power levels than those used for preheating, resulting in observed peak charging powers of approximately 18–22 kW.
+
+The observed difference between preheating and charging peak power therefore reflects the distinct functional roles and hardware constraints of the battery heating system and the onboard charging system, rather than an inconsistency in the data.
